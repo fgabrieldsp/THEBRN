@@ -1,0 +1,31 @@
+/* Estilos customizados para THEBRN Framework */
+
+table.zebra tbody tr:nth-child(odd) {
+  background-color: #f1f5f9;
+}
+table.zebra thead {
+  background-color: #1e293b;
+  color: #fff;
+}
+.card {
+  box-shadow: 0 2px 8px 0 rgba(30, 64, 175, 0.08);
+  border-radius: 0.75rem;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e0e7ff;
+}
+::-webkit-scrollbar-thumb {
+  background: #2563eb;
+  border-radius: 4px;
+}
+input, select, textarea {
+  border-radius: 0.5rem;
+  border: 1px solid #cbd5e1;
+  padding: 0.5rem;
+  transition: border 0.2s;
+}
+input:focus, select:focus, textarea:focus {
+  border-color: #2563eb;
+  outline: none;
+}

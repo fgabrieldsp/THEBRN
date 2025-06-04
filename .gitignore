@@ -1,0 +1,17 @@
+# Node modules (caso use dependências JS futuramente)
+node_modules/
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+# Logs e arquivos temporários
+*.log
+*.tmp
+# Arquivos de backup do editor
+*~
+# Arquivos de exportação temporários
+*.xml
+# Arquivos de snapshot temporários
+snapshot.md
+# Arquivos de configuração de IDE
+.vscode/
+.idea/
